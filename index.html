@@ -10,10 +10,23 @@
 
 <body>
 
-  
+  <style> 
+  	frame {
+  width: 300px;
+  height: 250px;
+  border: 3px solid #ccc;
+  background: #eee;
+  margin: auto;
+  padding: 15px 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
 
 <p id="x"> Hello World. </p>
-   
+   <div class="frame">
   <script>
   var img = document.createElement("img"); 
  
@@ -22,6 +35,7 @@ var src = document.getElementById("x");
  
 src.appendChild(img);  
     </script>
+</style>
 </body> 
 
 
